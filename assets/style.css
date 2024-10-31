@@ -1,0 +1,24 @@
+.scroll_progress_plugin {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #000;
+    width: 100%;
+    z-index: 1001;
+}
+
+.rangeslider--horizontal {
+    height: 10px;
+}
+
+.scroll_progress_plugin input {
+    width: 50%;
+}
+
+.scroll_progress_plugin .rangeslider--disabled {
+    opacity: 1;
+}
+
+.scroll_progress_plugin .rangeslider__handle {
+    display: none;
+}
